@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Chronometer</title>
+</head>
+<body>
+    <div>
+        <h1 id="h1-tittle">Chronometer</h1>
+        <div class="chronometer chronometer_back">
+            <div class="chronometer">
+                <h1 id="h1-chronometer">00:00:00:00</h1>
+            </div>
+            <div class="div-buttons">
+                <button id="button-play" onclick="chronometer.chronometeron()" class="button-action">⊳</button>
+                <button id="button-stop" onclick="chronometer.chronometeroff()" class="button-action">■</button>
+                <button id="button-reset" onclick="chronometer.start()" class="button-action">↺</button>
+            </div>
+            
+        </div>
+        <script type="text/javascript" src="/js/chronometer.js"></script>
+    </div>
+</body>
+</html>
